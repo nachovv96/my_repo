@@ -9,10 +9,16 @@
 			num.value=Math.pow(num.value,3);
 			document.getElementById("n1").innerHTML += num.value;
 		}
+		function potencia4(){
+			var num = document.getElementById("n1");
+			num.value=Math.pow(num.value,4);
+			document.getElementById("n1").innerHTML += num.value;
+		}
 </script>
 	</head>
 	<body>
 		Number: <input type="text" id="n1"><p></p>
 		<button onclick="potencia3()">x<sup>3</sup></button>
+		<button onclick="potencia4()">x<sup>4</sup></button>
 	</body>
 </html>

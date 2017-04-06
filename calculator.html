@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+		<meta charset="utf-8">
+		<script type="text/javascript">
+		function potencia3(){
+			var num = document.getElementById("n1");
+			num.value=Math.pow(num.value,3);
+			document.getElementById("n1").innerHTML += num.value;
+		}
+</script>
+	</head>
+	<body>
+		Number: <input type="text" id="n1"><p></p>
+		<button onclick="potencia3()">x<sup>3</sup></button>
+	</body>
+</html>
